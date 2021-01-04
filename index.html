@@ -133,6 +133,45 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- EG-ICE pulication --> 
+          <tr onmouseout="inerf_stop()" onmouseover="inerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='inerf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/inerf_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='img/egice.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function inerf_start() {
+                  document.getElementById('inerf_image').style.opacity = "1";
+                }
+                function inerf_stop() {
+                  document.getElementById('inerf_image').style.opacity = "0";
+                }
+                inerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="./docs/190401_registration_paper submitted.pdf">
+                <papertitle>Towards registration of construction drawings to building information models using nnowledge-based extended geometric hashing</papertitle>
+              </a>
+              <br>
+                <strong>Maciej Trzeciak</strong>; 
+                <a href="https://scholar.google.com/citations?user=9LSpz44AAAAJ&hl=en">Borrmann, A</a>; 
+              <br>
+              <em>26th International Workshop of the European Group for Intelligent Computing in Engineering, Leuven, Belgium</em>, 2019  
+              <br>
+              [ <a href="http://eg-ice2019.architectuur.kuleuven.be/">conference website</a> ] 
+              <p></p>
+              <p>Governmental guidelines on the theory and practicalisities of exchanging digial 3D models using the IFC standard.
+                The project commissioned by the <a href="https://www.bmvi.de/EN/Home/home.html">German Federal Ministry of Transport and Digital Infrastructure</a>.
+              </p>
+            </td>
+          </tr>
+
+
           <!-- BIM guidelines --> 
           <tr onmouseout="inerf_stop()" onmouseover="inerf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -240,7 +279,7 @@
               <br>
                 <strong>Maciej Trzeciak</strong>
               <br>
-              <em>Forum Bauinformatik, Weimar, German</em>, 2018  
+              <em>Forum Bauinformatik, Weimar, Germany</em>, 2018  
               <br>
               [ <a href="https://www.uni-weimar.de/projekte/fbi2018/index.php">conference website</a> ] 
               <p></p>
